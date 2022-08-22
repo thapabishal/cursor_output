@@ -1,13 +1,12 @@
 
-nmap <f5> :call ExecuteJob()<cr>
-
-highlight Pmenu ctermbg=white 
-
+let editingFile = expand('%:p') 
 let script_dir = expand('<sfile>:p:h')
 
-func! ExecuteJob()
- let l:editingFile = expand('%:p') 
- let l:command = 'sh ' . g:script_dir . '/run_java.sh ' . l:editingFile
+nnoremap <f5> :update \| call <SID>ExecuteJob() <cr> 
+highlight Pmenu ctermbg=white 
+
+func! s:ExecuteJob()
+ let l:command = 'sh ' . g:script_dir . '/run_java.sh ' . g:editingFile
  let l:job = job_start(l:command, {'close_cb': 'CloseHandler' })
 endfunc
 
