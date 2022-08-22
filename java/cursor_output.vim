@@ -1,4 +1,3 @@
-
 let editingFile = expand('%:p') 
 let script_dir = expand('<sfile>:p:h')
 
