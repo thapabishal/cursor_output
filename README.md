@@ -2,9 +2,8 @@
 
 
 ```
-cd ${path_of_your_choice}
+cd ${path_of_your_choice} e.g ~/project 
 git clone https://github.com/devbith/cursor_output
-
 ```
 Add the following in the ~/.vimrc and make sure filetype plugin is enabled ```filetype plugin on```
 
@@ -12,7 +11,7 @@ Add the following in the ~/.vimrc and make sure filetype plugin is enabled ```fi
 autocmd Filetype java source ${path_of_your_choice}/cursor_output/java/cursor_output.vim
 autocmd Filetype javascript source ${path_of_your_choice}/cursor_output/javascript/cursor_output.vim
 ```
-
+###### Make sure to update ${path_of_your_choice} 👆 
 
 ### Press ```F5``` to run
 
