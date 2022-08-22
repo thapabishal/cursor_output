@@ -6,12 +6,14 @@ cd ${path_of_your_choice}
 git clone https://github.com/devbith/cursor_output
 
 ```
-Add the following in the ~/.vimrc
+Add the following in the ~/.vimrc and make sure filetype plugin is enabled ```filetype plugin on```
 
 ```
 autocmd Filetype java source ${path_of_your_choice}/cursor_output/java/cursor_output.vim
 autocmd Filetype javascript source ${path_of_your_choice}/cursor_output/javascript/cursor_output.vim
 ```
+
+
 
 ## Screenshot
 <img src="https://lh3.googleusercontent.com/OmdL3tTibWazf-H6UCJ_98VifQfQuhWODLTP6fL615MxgdCEL5uFTeuecIqybhp5YnfPwjtx84fTqOFkpyRUXkNTaoW7_LblgHxM4cc0iuEpAE8k8XHV692Kl_a2e3JSYcYBgNwV-bs0n1c8XF7npHimZndyCT6z4WR0dJ-p0BIRyvG-DHc4nRSmo5LqG2FW02urKp9jnFCVMOfIAJ0MkXHf0qr-o2DJTdPxzH5usDMoLso8YY4it9YD-SEGRoZ-XLXmXjsO7sX1uiHG4-UCH0i7blYL9b_9GHARH4uDgECQRz-PsTQ1ADY6I3G5FN2BIZSFCo4VDPnfpM-RRzcCpv3Ma6GkESNY6Q4u5_ziQDKXv_2grpECrU-Iu50MsILKHJrrTMb3u-5KIxMyvKqr223Ne7H8gnKePQalQbx6i4SxDjW3y03HdmhBhzN2zpcshTERE5OKcqBfwpLhIMGG8Lhcc-NNvflH_sbY5rFEU7ToCm59vofr6h_MCGMBahE7FZ2cy0ymM0wJTzXi5m2K1ip1DqoVwLJi5zkf8lhEborm5Xnr3WmzUbPBwcIhcheMjwUXWdOyvJB_5bSyMi95mNFvJ9Bkq8_DYzfsN-tKkojLPq3oVFVyk_a7gVbxoLJYn6a9zIGGvB7LfvDPH5V4sD7r-jzY3bWo9tutG9P3xu9GfSRN341jb2toYPlLSXFfKLMV36OfNk3HDL-luXUG4xuH0HBpKxqK77BP2u3AeY8TUDD-ImJjtA0MUZuYsaxwyCs0xmWvj-XoA-gBoUxAMeofjYiBeZN7=w454-h220-no?authuser=0" width="500" height="250" />
