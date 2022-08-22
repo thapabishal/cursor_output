@@ -13,4 +13,3 @@ javac ${1} > ${script_dir}/output.txt 2>&1
 
 # Run and wirte result
 java -cp ${j_directory_path} ${j_file} >> ${script_dir}/output.txt 2>&1
-
