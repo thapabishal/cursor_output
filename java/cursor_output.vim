@@ -6,7 +6,7 @@ nnoremap <f5> :update \| call <SID>ExecuteJob() <cr>
 highlight Pmenu ctermbg=white 
 
 func! s:ExecuteJob()
- let l:command = 'sh ' . g:script_dir . '/run_java.sh ' . g:editingFile
+ let l:command = 'sh ' . g:script_dir . '/script.sh ' . g:editingFile
  let l:job = job_start(l:command, {'close_cb': 'CloseHandler' })
 endfunc
 
