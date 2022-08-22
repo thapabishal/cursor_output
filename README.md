@@ -13,6 +13,7 @@ autocmd Filetype java source ${path_of_your_choice}/cursor_output/java/cursor_ou
 autocmd Filetype javascript source ${path_of_your_choice}/cursor_output/javascript/cursor_output.vim
 ```
 
+Press ```F5``` to run
 
 
 ## Screenshot
@@ -20,3 +21,5 @@ autocmd Filetype javascript source ${path_of_your_choice}/cursor_output/javascri
 
 <img src="https://lh3.googleusercontent.com/-ee4Z5_wFDucJGDhUiGW9VMADuTgTXQ3D9x9AJaGu3XZCgvba4ICFAfNf6a2w7xrM6FD5ub_biP8ROIHilbfShkx3hHynTdF5_NqwK9weQN79QwNXAYCaUjXH0-ofaBgoQY69_lxjqbENarx0wZzHe1TBaUwD3DSzcphRQDCCMSPz5SVZax_7TcXmnKANkS7Nsw7cSCCP3s75A8rb-B3Kq-o-5gsvq_aC5zlqQ4fXZpcxFmx5-k3LI31BwxAnewCHBp1wloyZptEwsrTXV0qXDGsp2No2DiOsi2dlqH10bykXwbtdNeqHrqs5cU1F9r0k6FM610F01ZeRQomILYXtscCq1lVynXZ01KjMr1G_U7Irx2i7eC_Esz51LbFshsf3sf8RIezLBa8fzTqea3wlR0np0drBkgE5slkHX49zYgjzV74KcqoBYl5apVgKhz8FxsBGfqnvAfDUZDvmV9JsdNyIBVkIc5FPTfed-UGb3fdYBWfVwRu9AbAgosM__UNt8170jD-rn5-hvwWKYCeMtiuyTzOj-F0hdB8ag2bRefeZePECHQ3Ct19fqaya7GopSEU5SGJjBZhCzSkEZ3BPaxd8gI7uF2v11bZwaGBqyAoj1di3Q-rkX-KaFrApfR95jlNASBAkM_j_UjfjNFFNjl9FzJYMJXPcgV2eEZG4YhS5MvS28NqDLTKsZgQKmfA51BU0gxQKk4rKCpZyUyLohY5ye_JKMubBLJm6PLRy2jFZXBRYusw6mVm8mbqGF8G9fOGKrmPvnPpY5H1uN5_Gnd6qGBZKOxC=w1304-h650-no?authuser=0"  width="500" height="250" />
  
+
+
