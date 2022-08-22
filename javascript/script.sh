@@ -2,9 +2,6 @@
 
 set -e
 
-current_path=`pwd`
-echo ${current_path}
-
 j_directory_path=`echo ${1} | awk -F '/' -v OFS='/' '{$NF=""; print $0}' `
 
 j_file=`echo ${1} | awk -F '/' '{print $NF}'` 
