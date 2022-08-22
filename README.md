@@ -14,7 +14,9 @@ autocmd Filetype javascript source ${path_of_your_choice}/cursor_output/javascri
 ###### Make sure to update ${path_of_your_choice} 👆 
 
 ### To run, pres ```F5```
-Open Java, Javascript file and coding...
+Open Java, Javascript file in in Vim. 
+Run editing file using command ```F5``` 
+
 
 <hr>
 
